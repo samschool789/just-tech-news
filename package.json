@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
     "sequelize": "^6.20.1"
   },
   "devDependencies": {
